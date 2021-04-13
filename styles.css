@@ -61,13 +61,17 @@ background-color: lightcyan !important;
 .card6{
  background-color: rgb(213, 241, 213) !important;
 }
-.hidden{
- congratulate them
+ul{
+ list-style-type: none;
+}
+footer p{
+ margin: 0;
+ 
 }
 
-@media screen  and(max-width:600px) {
+@media screen  and (max-width:600px) {
  .hidden{
  display: none;
- visibility: none;
+ visibility: hidden;
 }
 }
