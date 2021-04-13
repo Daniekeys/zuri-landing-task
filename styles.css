@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+body{
+ margin: 0;
+ padding: 0;
+ font-family: 'Poppins', sans-serif;
+ 
+}
+.navbar-collapse{
+ margin-left: 30%;
+}
+.navbar{
+ padding: 1rem 2rem !important;
+}
+.img-resize{
+ width: 200px;
+ height: auto;
+}
+.dot{
+ font-size: 50px;
+ font-weight: 700;
+}
+.pic-col1{
+ width: 100%;
+}
+.pic-col2{
+ width: 100%;
+}
+.pack{
+ background-color: #f8f9fa !important;
+}
+/* section why */
+.why h2{
+ font-weight: 200;
+ font-size: 16px;
+}
+.why h1{
+ font-size: 26px;
+ font-weight: 400;
+}
+.card-body .fas{
+ font-size: 40px;
+}
+.card-body .fab{
+ font-size: 40px;
+}
+.card{
+ height: 220px;
+}
+.card2{
+background-color: linen !important;
+}
+.card3{
+background-color: lightcyan !important;
+}
+.card4{
+ background-color: lightpink !important;
+}
+.card5{
+ background-color: lightsteelblue !important;
+}
+.card6{
+ background-color: rgb(213, 241, 213) !important;
+}
+.hidden{
+ congratulate them
+}
+
+@media screen  and(max-width:600px) {
+ .hidden{
+ display: none;
+ visibility: none;
+}
+}
